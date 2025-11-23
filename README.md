@@ -13,6 +13,8 @@
 
 ## 📖 Sobre o Projeto
 
+Projeto do curso **Imersão Dev** da Alura com apoio do Google Gemini
+
 **HorrorMovie** é um site que exibe uma coleção de filmes de terror, carregados dinamicamente a partir de um arquivo `data.json`. O projeto foi desenvolvido com foco em **JavaScript puro (Vanilla JS)** para demonstrar manipulação avançada do DOM, assincronicidade e criação de interfaces de usuário ricas e interativas, sem o uso de frameworks.
 
 ## ✨ Funcionalidades Principais
