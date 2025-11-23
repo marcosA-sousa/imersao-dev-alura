@@ -8,12 +8,12 @@
 
 <p align="center">
   <!-- 💡 Dica: Grave um GIF da sua aplicação em ação e substitua o link abaixo! -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Demonstração da Aplicação" width="800"/>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Linha de separação" width="800"/>
 </p>
 
 ## 📖 Sobre o Projeto
 
-**HorrorMovie** é uma Single-Page Application (SPA) que exibe uma coleção de filmes de terror, carregados dinamicamente a partir de um arquivo `data.json`. O projeto foi desenvolvido com foco em **JavaScript puro (Vanilla JS)** para demonstrar manipulação avançada do DOM, assincronicidade e criação de interfaces de usuário ricas e interativas, sem o uso de frameworks.
+**HorrorMovie** é um site que exibe uma coleção de filmes de terror, carregados dinamicamente a partir de um arquivo `data.json`. O projeto foi desenvolvido com foco em **JavaScript puro (Vanilla JS)** para demonstrar manipulação avançada do DOM, assincronicidade e criação de interfaces de usuário ricas e interativas, sem o uso de frameworks.
 
 ## ✨ Funcionalidades Principais
 
@@ -34,7 +34,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 - **HTML5:** Estrutura semântica e acessível.
 - **CSS3:** Estilização moderna com Flexbox, Grid Layout e Media Queries.
-- **JavaScript (ES6+):** Lógica da aplicação, manipulação do DOM e requisições com a Fetch API.
+- **JavaScript (ES6+):** Lógica da aplicação, manipulação do DOM e requisições usando Fetch.
 - **JSON:** Formato para armazenamento e consumo dos dados dos filmes.
 
 ## 🚀 Como Executar o Projeto
@@ -43,12 +43,12 @@ Por ser um projeto front-end estático, você pode executá-lo facilmente em seu
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/marcosA-sousa/imersao-dev-alura.git
     ```
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd seu-repositorio
+    cd imersao-dev-alura
     ```
 
 3.  **Abra o arquivo `index.html` no seu navegador.**
@@ -58,5 +58,5 @@ Por ser um projeto front-end estático, você pode executá-lo facilmente em seu
 ---
 
 <p align="center">
-  Feito com 🖤 e um pouco de medo.
+  Desenvolvido por Marcos Sousa
 </p>
