@@ -30,6 +30,15 @@ body {
     padding: 10px 20px; /* Adiciona um pouco de espaçamento */
 }
 
+.cabecalho-titulo-container {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.cabecalho-titulo-direita {
+    flex-grow: 1;
+}
+
 .botao-voltar {
     font-family: 'Creepster', cursive;
     font-size: 1rem;
@@ -133,4 +142,30 @@ body {
 .botao-imdb:hover {
     background-color: #f40612;
     transform: scale(1.05);
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cabecalho-titulo-direita {
+        display: none; /* Oculta o título duplicado em telas menores */
+    }
+
+    .container-detalhes {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        padding: 15px;
+    }
+
+    .detalhes-info h2 {
+        font-size: 2rem; /* Reduz o tamanho da fonte do título do filme */
+    }
+
+    .detalhes-info h3 {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte da sinopse */
+    }
 }
