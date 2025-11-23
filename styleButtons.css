@@ -1,0 +1,77 @@
+
+
+/* Container principal dos botões de ordenação */
+.controles-ordenacao {
+    position: relative; /* Necessário para o posicionamento absoluto das opções */
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão principal à direita */
+    margin-bottom: 20px; /* Espaço entre os botões e os cards */
+    margin-right: 10px;
+}
+
+/* Botão principal "Ordenar" */
+#botao-alternar-ordenacao {
+    background-color: #b71c1c;
+    color: #fff;
+    border: 1px solid #8a1010;
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#botao-alternar-ordenacao:hover {
+    background-color: #9e1515; 
+    transform: scale(1.05);
+}
+
+/* Container das opções de ordenação (Lançamento, Nome) */
+.opcoes-ordenacao {
+    display: none; /* Começa escondido */
+    position: absolute;
+    top: 100%; /* Posiciona logo abaixo do botão "Ordenar" */
+    right: 0;
+    background-color: #2c2c2c; /* Fundo escuro para o menu dropdown */
+    border: 1px solid #444;
+    border-radius: 5px;
+    z-index: 10;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Garante que os cantos arredondados sejam aplicados aos filhos */
+}
+
+/* Classe para tornar o container de opções visível (adicionada via JS) */
+.opcoes-ordenacao.visivel {
+    display: block;
+}
+
+/* Estilo para cada botão dentro do menu de opções */
+.opcoes-ordenacao button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+    text-align: left;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.opcoes-ordenacao button:hover {
+    background-color: #444; /* Cor de fundo no hover */
+}
+
+/* Estilo para o botão de ordenação que está ativo */
+.opcoes-ordenacao button.active {
+    background-color: #b71c1c; /* Vermelho para indicar seleção */
+    color: #fff;
+    font-weight: bold;
+}
+
+.opcoes-ordenacao button.active:hover {
+    background-color: #9e1515; /* Mantém o padrão de hover */
+}

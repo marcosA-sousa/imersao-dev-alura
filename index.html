@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configurações essenciais do documento -->
+    <meta charset="UTF-8">
+    <!-- Medida de segurança: impede que o navegador envie o cabeçalho 'Referer' ao navegar para outros sites, protegendo a privacidade. -->
+    <meta name="referrer" content="no-referrer">
+    <!-- Garante que a página seja responsiva e se adapte a diferentes tamanhos de tela (celulares, tablets, etc.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HorrorMovie</title>
+
+    <!-- Ícone da aba do navegador (favicon) -->
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-filled/50/b71c1c/scream.png" type="image/x-icon">
+    <!-- Estilos gerais da página (assumindo que este arquivo existe) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Estilos específicos para os botões de ordenação (criado agora) -->
+    <link rel="stylesheet" href="styleButtons.css">
+</head>
+<body id="body-display">
+    <!-- Cabeçalho da página, contém o título, a barra de busca e o botão -->
+    <header class="cabecalho-display">
+        <h1 class="cabecalho-titulo-esquerda">HorrorMovie</h1>
+        <input type="text" id="campo-busca" placeholder="Busque por um filme ou série de terror..." />
+        <button id="botao-buscar">Buscar</button>
+        <h1 class="cabecalho-titulo-direita">HorrorMovie</h1>
+    </header>
+
+    <!-- Introdução breve da página -->
+    <main class="principal-display"> 
+        <section>
+            <h2>Bem-vindo ao HorrorMovie!</h2>
+            <p>Aqui você encontrará informações e artigos sobre o mundo do terror nas telonas. Use a barra de busca acima para encontrar o que precisa ou navegue pelas categorias abaixo.</p>
+        </section>
+
+        <!-- Seção dedicada a exibir os cards de filmes e séries -->
+        <section class="secao-artigos">
+            <h3>Filmes e Séries em Destaque</h3>
+            <!-- Controles de Ordenação -->
+            <div class="controles-ordenacao">
+                <span class="ordenar-label">Ordenar por:</span>
+                <button id="ordenar-ano-desc" data-sort="lancamento_desc" class="active">Lançamento (Novos)</button>
+                <button id="ordenar-ano-asc" data-sort="lancamento_asc">Lançamento (Antigos)</button>
+                <button id="ordenar-nome" data-sort="alfabetica">Nome (A-Z)</button>
+            </div>
+
+            <!-- Este container será preenchido dinamicamente pelo JavaScript com os cards dos filmes. -->
+            <div class="articles-grid"></div>
+        </section>
+    </main>
+
+    <!-- Rodapé da página com links para redes sociais e informações de direitos autorais -->
+    <footer class="rodape-display">
+      <!-- Lista de links para redes sociais e outras plataformas -->
+      <ul>
+        <li>
+           <!-- O atributo target="_blank" abre o link em uma nova aba. rel="noopener noreferrer" é uma boa prática de segurança para links externos. -->
+           <a href="https://github.com/marcosA-sousa" target="_blank" rel="noopener noreferrer"> <img src="https://cdn-icons-png.flaticon.com/24/25/25231.png" alt="Github: marcosA-sousa" width="20px" height="20px"></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/marcossousa2310/" target="_blank" rel="noopener noreferrer"><img src="https://cdn-icons-png.flaticon.com/24/174/174857.png" alt="Linkedin: marcossousa2310" width="20px" height="20px"></a>
+        </li>
+        <li>
+            <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer"><img src="source/alura-img.jpg" alt="Alura logo" width="20px" height="20px"></a>
+        </li>
+      </ul>
+      <p id="copyright">&copy;2025 Marcos Sousa. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

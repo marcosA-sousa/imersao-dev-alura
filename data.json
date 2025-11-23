@@ -1,0 +1,314 @@
+[
+    {
+        "nome": "Hereditário",
+        "ano": "2018",
+        "sinopse": "Após a morte da avó, a família Graham começa a desvendar segredos cada vez mais aterrorizantes sobre sua ancestralidade.",
+        "link": "https://www.imdb.com/pt/title/tt7784604/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/wonYMeHauhrxSi5UTOtj5L479mS.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Drama"]
+    },
+    {
+        "nome": "A Bruxa",
+        "ano": "2015",
+        "sinopse": "Na Nova Inglaterra do século 17, uma família puritana é atormentada por forças do mal após ser banida de sua comunidade.",
+        "link": "https://www.imdb.com/pt/title/tt4263482/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/qqOtwhj8DxOBIwI0u6ThooXEIBR.jpg",
+        "tags": ["Terror Folclórico", "Sobrenatural", "Suspense"]
+    },
+    {
+        "nome": "Corra!",
+        "ano": "2017",
+        "sinopse": "Um jovem fotógrafo negro descobre um segredo sombrio quando visita a família de sua namorada branca pela primeira vez.",
+        "link": "https://www.imdb.com/pt/title/tt5052448/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/7hmmKIWDHi7jzOiGzffZesXKKfp.jpg",
+        "tags": ["Terror Psicológico", "Suspense", "Sátira Social"]
+    },
+    {
+        "nome": "O Iluminado",
+        "ano": "1980",
+        "sinopse": "Um homem aceita um emprego de zelador em um hotel isolado, mas uma presença sinistra começa a levá-lo à loucura.",
+        "link": "https://www.imdb.com/pt/title/tt0081505/",
+        "img": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Clássico"]
+    },
+    {
+        "nome": "Invocação do Mal",
+        "ano": "2013",
+        "sinopse": "Os investigadores paranormais Ed e Lorraine Warren ajudam uma família aterrorizada por uma entidade demoníaca em sua casa.",
+        "link": "https://www.imdb.com/pt/title/tt1457767/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Sobrenatural", "Casa Assombrada", "Baseado em Fatos Reais"]
+    },
+    {
+        "nome": "O Exorcista",
+        "ano": "1973",
+        "sinopse": "Quando uma jovem é possuída por uma entidade misteriosa, sua mãe busca a ajuda de dois padres para salvá-la.",
+        "link": "https://www.imdb.com/pt/title/tt0070047/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/z8X9sQ64GPGeJi5hWQsqDqEVMan.jpg",
+        "tags": ["Sobrenatural", "Possessão", "Clássico"]
+    },
+    {
+        "nome": "A Maldição da Residência Hill",
+        "ano": "2018",
+        "sinopse": "Cinco irmãos que cresceram na casa mal-assombrada mais famosa do país são forçados a confrontar os fantasmas de seu passado.",
+        "link": "https://www.imdb.com/pt/title/tt6763664/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Drama", "Série"]
+    },
+    {
+        "nome": "Midsommar",
+        "ano": "2019",
+        "sinopse": "Um casal viaja para um festival de verão sueco que se transforma em um pesadelo pagão e violento.",
+        "link": "https://www.imdb.com/pt/title/tt8772262/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Terror Folclórico", "Terror Psicológico", "Culto"]
+    },
+    {
+        "nome": "Um Lugar Silencioso",
+        "ano": "2018",
+        "sinopse": "Uma família deve viver em silêncio absoluto para evitar criaturas misteriosas que caçam pelo som.",
+        "link": "https://www.imdb.com/pt/title/tt6644200/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Suspense", "Monstros", "Pós-apocalíptico"]
+    },
+    {
+        "nome": "O Babadook",
+        "ano": "2014",
+        "sinopse": "Uma mãe solteira e seu filho são atormentados por uma entidade sinistra que surge de um livro infantil.",
+        "link": "https://www.imdb.com/pt/title/tt2321549/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MzE@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Monstros"]
+    },
+    {
+        "nome": "It: A Coisa",
+        "ano": "2017",
+        "sinopse": "Um grupo de crianças desajustadas enfrenta uma entidade maligna que assume a forma de um palhaço para caçar suas presas.",
+        "link": "https://www.imdb.com/pt/title/tt1396484/",
+        "img": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Sobrenatural", "Monstros", "Amadurecimento"]
+    },
+    {
+        "nome": "Pânico",
+        "ano": "1996",
+        "sinopse": "Um ano após o assassinato de sua mãe, uma adolescente é aterrorizada por um novo assassino que usa uma máscara de fantasma.",
+        "link": "https://www.imdb.com/pt/title/tt0117571/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Slasher", "Suspense", "Metalinguagem"]
+    },
+    {
+        "nome": "Psicose",
+        "ano": "1960",
+        "sinopse": "Uma secretária em fuga se hospeda em um motel isolado, administrado por um jovem sob o domínio de sua mãe.",
+        "link": "https://www.imdb.com/pt/title/tt0054215/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/lqTVfL68X937Gtd4rlgEmwiDDHI.jpg",
+        "tags": ["Terror Psicológico", "Suspense", "Clássico", "Slasher"]
+    },
+    {
+        "nome": "O Sexto Sentido",
+        "ano": "1999",
+        "sinopse": "Um psicólogo infantil tenta ajudar um garoto que afirma ser capaz de ver e falar com os mortos.",
+        "link": "https://www.imdb.com/pt/title/tt0167404/",
+        "img": "https://m.media-amazon.com/images/M/MV5BMWM4NTFhYjctNzUyNi00NGMwLTk3NTYtMDIyNTZmMzRlYmQyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_FMjpg_UX1000_.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Suspense"]
+    },
+    {
+        "nome": "Missa da Meia-Noite",
+        "ano": "2021",
+        "sinopse": "A chegada de um padre carismático a uma comunidade isolada traz milagres, presságios e um fervor religioso renovado.",
+        "link": "https://www.imdb.com/pt/title/tt10574558/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/rka8ibtD6HayiEJmb6rns47lyAL.jpg",
+        "tags": ["Terror Sobrenatural", "Vampiros", "Drama", "Série"]
+    },
+    {
+        "nome": "O Silêncio dos Inocentes",
+        "ano": "1991",
+        "sinopse": "Uma jovem agente do FBI busca a ajuda de um brilhante e manipulador assassino canibal para capturar outro serial killer.",
+        "link": "https://www.imdb.com/pt/title/tt0102926/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/paGUSTwcFrAxpGV1hSQ2wsI28id.jpg",
+        "tags": ["Suspense", "Thriller Psicológico", "Serial Killer"]
+    },
+    {
+        "nome": "O Bebê de Rosemary",
+        "ano": "1968",
+        "sinopse": "Uma jovem grávida suspeita que seus vizinhos idosos são membros de um culto satânico que planeja usar seu bebê para seus rituais.",
+        "link": "https://www.imdb.com/pt/title/tt0063522/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/uYgvlHceRFjAFbsNeMInYcLZLUb.jpg",
+        "tags": ["Terror Psicológico", "Culto", "Clássico"]
+    },
+    {
+        "nome": "Alien, o Oitavo Passageiro",
+        "ano": "1979",
+        "sinopse": "A tripulação de uma nave espacial comercial é aterrorizada por uma forma de vida extraterrestre mortal após responder a um sinal de socorro.",
+        "link": "https://www.imdb.com/pt/title/tt0078748/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+        "tags": ["Ficção Científica", "Terror no Espaço", "Monstros"]
+    },
+    {
+        "nome": "A Profecia",
+        "ano": "1976",
+        "sinopse": "Um embaixador americano adota um órfão que ele gradualmente descobre ser o Anticristo.",
+        "link": "https://www.imdb.com/pt/title/tt0075005/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/uHemQhtg5n5jPYMLeFFTPfMsvFE.jpg",
+        "tags": ["Sobrenatural", "Terror Religioso", "Clássico"]
+    },
+    {
+        "nome": "Poltergeist: O Fenômeno",
+        "ano": "1982",
+        "sinopse": "A vida de uma família suburbana vira de cabeça para baixo quando fantasmas malévolos invadem sua casa e sequestram sua filha mais nova.",
+        "link": "https://www.imdb.com/pt/title/tt0084516/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/dVYBZo9sqHrLcM3F32urM5ru0k1.jpg",
+        "tags": ["Sobrenatural", "Casa Assombrada", "Clássico"]
+    },
+    {
+        "nome": "A Hora do Pesadelo",
+        "ano": "1984",
+        "sinopse": "Um assassino desfigurado com garras de metal assombra os sonhos de adolescentes, matando-os em seu sono.",
+        "link": "https://www.imdb.com/pt/title/tt0087800/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/A3P8tOusazEJXJ2nIkbcTJUWeLm.jpg",
+        "tags": ["Slasher", "Sobrenatural", "Terror Onírico"]
+    },
+    {
+        "nome": "Halloween: A Noite do Terror",
+        "ano": "1978",
+        "sinopse": "Quinze anos após assassinar sua irmã, Michael Myers escapa de um sanatório e retorna à sua cidade natal para aterrorizar um novo grupo de adolescentes.",
+        "link": "https://www.imdb.com/pt/title/tt0077651/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/ozkOzFITxLmp5nkjvuawQaRHNF3.jpg",
+        "tags": ["Slasher", "Suspense", "Clássico"]
+    },
+    {
+        "nome": "O Massacre da Serra Elétrica",
+        "ano": "1974",
+        "sinopse": "Um grupo de amigos em uma viagem pelo Texas rural se torna presa de uma família de canibais, incluindo o infame Leatherface.",
+        "link": "https://www.imdb.com/pt/title/tt0072271/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/mpgkRPH1GNkMCgdPk2OMyHzAks7.jpg",
+        "tags": ["Slasher", "Terror Explícito", "Clássico"]
+    },
+    {
+        "nome": "A Bruxa de Blair",
+        "ano": "1999",
+        "sinopse": "Três estudantes de cinema desaparecem em uma floresta de Maryland enquanto filmam um documentário sobre uma lenda local, deixando para trás apenas suas filmagens.",
+        "link": "https://www.imdb.com/pt/title/tt0185937/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/jAKX4midH0vSm2XT54g5TWluQqw.jpg",
+        "tags": ["Found Footage", "Terror Psicológico", "Sobrenatural"]
+    },
+    {
+        "nome": "O Chamado",
+        "ano": "2002",
+        "sinopse": "Uma jornalista investiga uma fita de vídeo amaldiçoada que aparentemente causa a morte de quem a assiste sete dias depois.",
+        "link": "https://www.imdb.com/pt/title/tt0298130/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/rHTUfJE1y7XGU3hk6l3W5rQnku1.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "J-Horror"]
+    },
+    {
+        "nome": "Jogos Mortais",
+        "ano": "2004",
+        "sinopse": "Dois homens acordam acorrentados em um banheiro industrial e são forçados a participar de um jogo mortal orquestrado por um sádico gênio do crime.",
+        "link": "https://www.imdb.com/pt/title/tt0387564/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/xRdtEDpP2PWqU7K7jF51XRqVccX.jpg",
+        "tags": ["Tortura", "Suspense", "Thriller"]
+    },
+    {
+        "nome": "[REC]",
+        "ano": "2007",
+        "sinopse": "Uma repórter de TV e seu cinegrafista ficam presos dentro de um prédio em quarentena com moradores que se transformam em criaturas violentas.",
+        "link": "https://www.imdb.com/pt/title/tt1038988/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/vIoBgFBJuqcIzudkFyagJuCxHZ7.jpg",
+        "tags": ["Found Footage", "Zumbis", "Terror"]
+    },
+    {
+        "nome": "Deixa Ela Entrar",
+        "ano": "2008",
+        "sinopse": "Um garoto solitário e intimidado faz amizade com uma jovem vizinha que se revela uma vampira.",
+        "link": "https://www.imdb.com/pt/title/tt1139797/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/usJZD6BgU29hRPzQlvfFGsp8AXC.jpg",
+        "tags": ["Vampiros", "Drama", "Terror"]
+    },
+    {
+        "nome": "Sobrenatural",
+        "ano": "2010",
+        "sinopse": "Uma família busca ajuda para seu filho, que entrou em coma após um incidente paranormal e se tornou um portal para entidades de um plano astral.",
+        "link": "https://www.imdb.com/pt/title/tt1591095/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/2L8fErMpGD4s81VtWwspeyHYdiI.jpg",
+        "tags": ["Sobrenatural", "Casa Assombrada", "Demônios"]
+    },
+    {
+        "nome": "A Entidade",
+        "ano": "2012",
+        "sinopse": "Um escritor de crimes reais descobre uma caixa de filmes caseiros que colocam sua família em perigo ao despertar uma entidade sobrenatural.",
+        "link": "https://www.imdb.com/pt/title/tt1922777/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/9FPx4MdIPsmbkXM0W1f23u1aoIC.jpg",
+        "tags": ["Sobrenatural", "Found Footage", "Terror Psicológico"]
+    },
+    {
+        "nome": "Noites Brutais",
+        "ano": "2022",
+        "sinopse": "Uma mulher que aluga uma casa para uma entrevista de emprego descobre que o local já está ocupado por um homem estranho e que há um segredo sombrio no porão.",
+        "link": "https://www.imdb.com/pt/title/tt15791034/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/tA5OE1P8GAEuASNtus5zhJrooI4.jpg",
+        "tags": ["Terror", "Suspense", "Mistério"]
+    },
+    {
+        "nome": "Fale Comigo",
+        "ano": "2023",
+        "sinopse": "Um grupo de amigos descobre como conjurar espíritos usando uma mão embalsamada, mas um deles vai longe demais e liberta uma força aterrorizante.",
+        "link": "https://www.imdb.com/pt/title/tt10638522/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/7U3lC4YnHD8zpeoxbY6Hsj9jyeu.jpg",
+        "tags": ["Sobrenatural", "Terror", "Possessão"]
+    },
+    {
+        "nome": "O Menu",
+        "ano": "2022",
+        "sinopse": "Um jovem casal viaja para uma ilha remota para jantar em um restaurante exclusivo, onde o chef prepara um menu luxuoso com surpresas chocantes.",
+        "link": "https://www.imdb.com/pt/title/tt9764362/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/rxNelQvAjOmNGUUHRujmsHiPEIh.jpg",
+        "tags": ["Terror", "Suspense", "Comédia de Terror"]
+    },
+    {
+        "nome": "X - A Marca da Morte",
+        "ano": "2022",
+        "sinopse": "Em 1979, um grupo de jovens cineastas se propõe a fazer um filme adulto no Texas rural, mas quando seus anfitriões reclusos os pegam em flagrante, o elenco se vê lutando por suas vidas.",
+        "link": "https://www.imdb.com/pt/title/tt13560574/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/As5dKK7fLOlCyVwjqoW5pyiDz6D.jpg",
+        "tags": ["Slasher", "Terror", "Suspense"]
+    },
+    {
+        "nome": "Pearl",
+        "ano": "2022",
+        "sinopse": "Presa na fazenda isolada de sua família, Pearl deve cuidar de seu pai doente sob a vigilância amarga de sua mãe, enquanto anseia por uma vida glamorosa como a que vê nos filmes.",
+        "link": "https://www.imdb.com/pt/title/tt18925334/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/cTgLkhIMmzwH1NAaq7NDbFN20zi.jpg",
+        "tags": ["Terror Psicológico", "Slasher", "Drama"]
+    },
+    {
+        "nome": "O Telefone Preto",
+        "ano": "2021",
+        "sinopse": "Um garoto de 13 anos é sequestrado e mantido em um porão à prova de som, onde começa a receber chamadas em um telefone desconectado das vítimas anteriores do assassino.",
+        "link": "https://www.imdb.com/pt/title/tt7144666/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/yw6H4C64tjBWlyKFG1pzmq5zOQh.jpg",
+        "tags": ["Sobrenatural", "Suspense", "Terror"]
+    },
+    {
+        "nome": "A Órfã",
+        "ano": "2009",
+        "sinopse": "Um casal adota uma misteriosa menina de 9 anos após a perda de seu bebê, mas logo descobrem que há algo terrivelmente errado com ela.",
+        "link": "https://www.imdb.com/pt/title/tt1148204/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/9tdcvT3ZyPBluzmQTevgn503jpg.jpg",
+        "tags": ["Terror Psicológico", "Suspense", "Mistério"]
+    },
+    {
+        "nome": "O Segredo da Cabana",
+        "ano": "2011",
+        "sinopse": "Cinco amigos vão para uma cabana remota na floresta e acabam descobrindo um segredo aterrorizante que vai muito além do que imaginavam.",
+        "link": "https://www.imdb.com/pt/title/tt1259521/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/raOYAZFVpWyL9teEzLDEwtP8lm9.jpg",
+        "tags": ["Comédia de Terror", "Metalinguagem", "Monstros"]
+    },
+    {
+        "nome": "Corrente do Mal",
+        "ano": "2014",
+        "sinopse": "Após um encontro sexual, uma jovem é perseguida por uma entidade sobrenatural que só pode ser passada para outra pessoa através do sexo.",
+        "link": "https://www.imdb.com/pt/title/tt3235888/",
+        "img": "https://www.themoviedb.org/t/p/w600_and_h900_face/rGH9NafHyg3Of2cMY5oOVb7p4HA.jpg",
+        "tags": ["Terror Psicológico", "Sobrenatural", "Suspense"]
+    }
+]

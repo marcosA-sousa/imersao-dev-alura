@@ -1,0 +1,322 @@
+/* Importa fontes customizadas do Google Fonts para serem usadas no projeto */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+/* Estilos Globais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    /* Garante que padding e border não afetem a largura e altura final dos elementos */
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+/* Estilos do Cabeçalho (Header) */
+.cabecalho-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #101010;
+    border-bottom: 1px solid #303030;
+}
+
+/* Estilização dos títulos no cabeçalho com a fonte 'Creepster' */
+.cabecalho-titulo-esquerda, .cabecalho-titulo-direita {
+    font-family: 'Creepster', cursive;
+    color: #960202;
+    font-size: 2.8rem;
+    font-weight: normal; /* A fonte já é estilosa, não precisa de negrito */
+    letter-spacing: 2px;
+    /* Efeito de sombra e brilho para dar um aspecto de "sangue" ou neon */
+    text-shadow: 
+        0 0 5px #ff0000,
+        0 0 10px #b71c1c,
+        2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+/* Estilização do campo de busca */
+.cabecalho-display input[type="text"] {
+    flex-grow: 1;
+    margin: 0 2rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #303030;
+    background-color: #222;
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Estilização do texto de placeholder dentro do campo de busca */
+.cabecalho-display input[type="text"]::placeholder {
+    color: #888;
+}
+
+/* Estilização do botão de busca */
+#botao-buscar {
+    font-family: 'Creepster', cursive;
+    font-size: medium;
+    padding: 0.75rem 1.5rem;
+    background-color: #b50c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 2rem; /* Espaço entre o botão e o título da direita */
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito visual ao passar o mouse sobre o botão */
+#botao-buscar:hover {
+    background-color: #e53935;
+}
+
+/* Estilos do Conteúdo Principal (Main) */
+.principal-display {
+    padding: 2rem;
+}
+
+.principal-display section {
+    margin-bottom: 2rem;
+}
+
+/* Estilização dos títulos principais (h2, h3) com a fonte 'Nosifer' */
+.principal-display h2, .principal-display h3 {
+    font-family: 'Nosifer', cursive;
+    color: #8a0202;
+    font-size: 2.8rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    /* Efeito de sombra e brilho similar aos títulos do cabeçalho */
+    text-shadow: 
+        0 0 5px #ff0000,
+        0 0 10px #b71c1c,
+        2px 2px 2px rgba(0, 0, 0, 0.7);
+    margin: 12px;
+    text-align: center;
+}
+/* Estilização do parágrafo de introdução com efeito de gradiente animado */
+.principal-display p {
+    font-family: 'Nosifer', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 
+        0 0 5px rgba(253, 133, 133, 0.7),
+        0 0 10px rgba(247, 144, 144, 0.7),
+        2px 2px 2px rgba(0, 0, 0, 0.7);
+    
+    /* O texto é usado como uma máscara para o fundo de gradiente */
+    background: linear-gradient(90deg, #fb0202, #f7f6f6, #f9eaea, #f8f7f7);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animacao-gradiente 4s ease infinite;
+}
+
+/* Define a animação que move a posição do gradiente, criando um efeito de brilho pulsante */
+@keyframes animacao-gradiente {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Estilos para os controles de ordenação */
+.controles-ordenacao {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha em telas pequenas */
+    gap: 0.5rem;
+}
+
+.ordenar-label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.controles-ordenacao button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #e5e5e5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.controles-ordenacao button:hover {
+    background-color: #444;
+}
+
+.controles-ordenacao button.active {
+    background-color: #b50c0c;
+    border-color: #e50914;
+    color: #fff;
+}
+/* Grid de Artigos (Cards) */
+.articles-grid {
+    display: grid;
+    /* Cria um layout de grade responsivo: as colunas têm no mínimo 250px e se ajustam para preencher o espaço */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+/* Estilização base para cada card de filme */
+.cartao {
+    position: relative;
+    background-color: #222;
+    border-radius: 8px;
+    overflow: hidden; /* Garante que a imagem não ultrapasse as bordas arredondadas */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    /* Transição suave para os efeitos de hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;    
+    cursor: pointer; /* Indica que o card inteiro é clicável */
+}
+
+/* Efeito de elevação e sombra mais forte ao passar o mouse sobre o card */
+.cartao:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilização da imagem do pôster dentro do card */
+.cartao img {
+    width: 100%;
+    height: 375px; /* Altura fixa para manter a consistência visual na grade */
+    object-fit: cover; /* Garante que a imagem cubra a área designada sem distorcer sua proporção */
+    display: block;
+}
+
+/* Estilização do título do filme no card */
+.cartao h4 {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    color: #fff;
+}
+
+/* Estilização da sinopse no card */
+.cartao p {
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    color: #ccc;
+    flex-grow: 1; /* Faz com que a sinopse ocupe o espaço vertical disponível, alinhando os botões na base dos cards */
+}
+
+/* Estilização do link/botão "Ver Detalhes" */
+.botao-detalhes {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+/* Efeito de cor ao passar o mouse sobre o link */
+.botao-detalhes:hover {
+    background-color: #e53935;
+}
+
+/* Estilo para a mensagem de "Nenhum filme encontrado" */
+.nao-encontrado {
+    color: #aaa;
+    grid-column: 1 / -1; /* Faz a mensagem ocupar toda a largura da grade */
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Estilos do Rodapé (Footer) */
+.rodape-display {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid #303030;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.rodape-display ul {
+    /* Estiliza a lista de ícones de redes sociais */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* --- Media Queries para Responsividade --- */
+
+/* Para telas de até 768px (Tablets e celulares maiores em modo paisagem) */
+@media (max-width: 768px) {
+    /* Ajusta o cabeçalho para um layout vertical */
+    .cabecalho-display {
+        flex-direction: column;
+        gap: 1rem; /* Adiciona espaço entre os itens empilhados */
+        padding: 1rem;
+    }
+
+    /* Oculta o título da direita para evitar redundância */
+    .cabecalho-titulo-direita {
+        display: none;
+    }
+
+    /* Faz o campo de busca e o botão ocuparem mais espaço */
+    .cabecalho-display input[type="text"] {
+        width: 100%;
+        max-width: 400px; /* Limita a largura máxima em telas de tablet */
+        margin: 0;
+    }
+
+    #botao-buscar {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    /* Reduz o tamanho dos títulos principais */
+    .principal-display h2, .principal-display h3 {
+        font-size: 2.2rem;
+    }
+
+    /* Reduz o tamanho do parágrafo de introdução */
+    .principal-display p {
+        font-size: 1rem;
+    }
+
+    /* Ajusta o padding do conteúdo principal */
+    .principal-display {
+        padding: 1.5rem 1rem;
+    }
+
+    /* Reduz o espaçamento entre os cards */
+    .articles-grid {
+        gap: 1rem;
+    }
+}
+
+/* Para telas de até 480px (Celulares em modo retrato) */
+@media (max-width: 480px) {
+    /* Reduz ainda mais o tamanho dos títulos para telas bem pequenas */
+    .cabecalho-titulo-esquerda {
+        font-size: 2.5rem;
+    }
+
+    .principal-display h2, .principal-display h3 {
+        font-size: 1.8rem;
+    }
+}
