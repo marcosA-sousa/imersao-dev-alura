@@ -25,18 +25,15 @@ body {
 
 .cabecalho {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Centraliza o container do título */
     align-items: center;
     padding: 10px 20px; /* Adiciona um pouco de espaçamento */
+    position: relative; /* Necessário para posicionar o botão 'Voltar' */
 }
 
 .cabecalho-titulo-container {
     flex-grow: 1;
     text-align: center;
-}
-
-.cabecalho-titulo-direita {
-    flex-grow: 1;
 }
 
 .botao-voltar {
@@ -48,6 +45,11 @@ body {
     border: 1px solid #555;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
+    /* Posiciona o botão no canto esquerdo */
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .botao-voltar:hover {
@@ -73,7 +75,8 @@ body {
 .detalhes-poster img {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    height: 550px; /* Altura fixa para consistência */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
     border-radius: 8px; 
     border: 3px solid #5e0000; /* Borda vermelha escura para combinar com o tema */
 }
@@ -83,12 +86,6 @@ body {
 }
 
 .detalhes-info h2 {
-    margin-top: 0;
-    font-size: 2.5rem;
-    color: #e50914;
-}
-
-.detalhes-info h3 {
     font-family: 'Creepster', cursive;
     font-size: 1.8rem;
     color: #b71c1c;
@@ -152,20 +149,19 @@ body {
         gap: 10px;
     }
 
-    .cabecalho-titulo-direita {
-        display: none; /* Oculta o título duplicado em telas menores */
+    .botao-voltar {
+        position: static; /* Remove o posicionamento absoluto */
+        transform: none;
+        order: -1; /* Coloca o botão antes do título no fluxo */
     }
 
     .container-detalhes {
         flex-direction: column; /* Empilha os itens verticalmente */
         padding: 15px;
     }
-
-    .detalhes-info h2 {
-        font-size: 2rem; /* Reduz o tamanho da fonte do título do filme */
-    }
-
-    .detalhes-info h3 {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte da sinopse */
+    
+    .detalhes-poster img {
+        height: auto; /* Permite que a altura se ajuste para não cortar a imagem */
+        max-height: 500px; /* Limita a altura máxima em telas de tablet/celular */
     }
 }
